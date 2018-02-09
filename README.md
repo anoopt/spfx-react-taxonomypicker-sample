@@ -1,26 +1,26 @@
-## spfx-react-taxonomypicker-sample
+## SFPx React Taxonomypicker Sample
 
-This is where you include your WebPart documentation.
+## Summary
+A simple SPFx webpart that shows the usage of React Taxonomy Picker Control.
 
-### Building the code
+> Inspired from ([react-taxonomypicker](https://www.npmjs.com/package/react-taxonomypicker)) by ([José Quinto](https://github.com/jquintozamora))
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
+![React Taxonomy Picker Sample](./assets/spfx-react-tax-sample.gif)
 
-This package produces the following:
+## Used SharePoint Framework Version 
+![1.3.4](https://img.shields.io/badge/version-1.3.4-green.svg)
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+## Description
 
-### Build options
+This webpart shows how to use the react-taxonomy picker to create and update a list item which has a managed metadata field. To use this sample
+- Clone the repo
+- Create a list called "Cities" with Title and Region (Managed metadata column)
+- Map the Region column to a term set
+- Update the ID and Name of that term set in the code
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+## Features
+This extension illustrates the following concepts:
+- Using **React** for building SharePoint Framework client-side solutions.
+- Using **Office UI Fabric React** styles for building user experience consistent with SharePoint and Office.
+- Adapting **Office UI Fabric styles**
+- Theme syntax for applying official colors to custom CSS classes

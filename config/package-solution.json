@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-taxonomypicker-sample-client-side-solution",
+    "id": "47580904-0517-4709-ac66-88878aec7686",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-taxonomypicker-sample.sppkg"
+  }
+}

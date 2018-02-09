@@ -5,7 +5,11 @@ A simple SPFx webpart that shows the usage of React Taxonomy Picker Control.
 
 > Inspired from ([react-taxonomypicker](https://www.npmjs.com/package/react-taxonomypicker)) by ([José Quinto](https://github.com/jquintozamora))
 
+## Demo
 ![React Taxonomy Picker Sample](./assets/spfx-react-tax-sample.gif)
+
+## Structure
+![Taxonomy Structure](./assets/Cities_List.png)
 
 ## Used SharePoint Framework Version 
 ![1.3.4](https://img.shields.io/badge/version-1.3.4-green.svg)
